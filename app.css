@@ -1,0 +1,56 @@
+/* Your styles should be mobile-first and responsive */
+
+/** 
+  * If you are unclear on how to utilize a mobile-first, responsive technique to write your CSS, here is an example: 
+  *
+  * https://github.com/andreacardybailey/responsive_example/blob/master/styles/responsive-base.css 
+  *
+*/
+
+* {
+  font-family: calibri;
+}
+
+h1 {
+	text-align: center;
+	}
+
+body {
+  background-color: #cce6ff;
+  color:#0059b3;
+}
+
+h1 {
+  margin-left: 20px;
+}
+
+p {
+  font-size:24px;
+}
+
+.welcome, .quiz-interface, .answer-response, .quiz-results {
+  margin: 20px;
+  padding: 26px;
+  border: 12px solid #4d79ff;
+  border-style: ridge;
+  display: flex;
+  flex-direction: column;
+}
+
+ol li {
+  margin: 8px;
+  font-size: 24px;
+}
+
+input[type='radio'] {transform: scale(1.4)}
+
+
+.quiz-results {
+	text-align: center;
+}
+
+.submit-answer, #beginQuiz, .restart-quiz {
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+}
